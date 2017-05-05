@@ -5,7 +5,7 @@
   "repository": "git@github.com:gSchool/tdd-shopping-cart.git",
   "license": "MIT",
   "scripts": {
-    "test": "mocha --recursive *.test.js"
+    "test": "mocha --recursive ./test/*.test.js"
   },
   "devDependencies": {
     "chai": "^3.5.0",
